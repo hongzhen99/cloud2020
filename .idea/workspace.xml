@@ -26,10 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;eureka集群 zookeeper&quot;">
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/tian/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/tian/OrderMain80.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/tian/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/tian/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/controller/OrderController.class" afterDir="false" />
+    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;consul+  ribbon&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/OrderMain80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/tian/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/tian/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/tian/controller/PaymentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/tian/controller/PaymentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +44,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -126,7 +131,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7002">
+  <component name="RunManager" selected="Spring Boot.OrderOpenFeignMain">
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.EurekaMain7001" />
@@ -163,6 +168,21 @@
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-consumer-order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.OrderMain80" />
+      <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderOpenFeignMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-openfeign-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.OrderOpenFeignMain" />
       <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -223,39 +243,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8004" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tian.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.PaymentMain8004" />
-      <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.OrderMain80" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.PaymentMain8002" />
-      <item itemvalue="Spring Boot.PaymentMain8004" />
       <item itemvalue="Spring Boot.OrderZKMain" />
       <item itemvalue="Spring Boot.PaymentConsulMain" />
       <item itemvalue="Spring Boot.OrderConsulMain" />
+      <item itemvalue="Spring Boot.OrderOpenFeignMain" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderOpenFeignMain" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentConsulMain" />
         <item itemvalue="Spring Boot.OrderConsulMain" />
         <item itemvalue="Spring Boot.OrderZKMain" />
-        <item itemvalue="Spring Boot.PaymentMain8004" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +279,7 @@
       <workItem from="1594534448761" duration="13000" />
       <workItem from="1594600974086" duration="17657000" />
       <workItem from="1594636085658" duration="9572000" />
-      <workItem from="1594706057953" duration="4686000" />
+      <workItem from="1594706057953" duration="7072000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dpin测试&quot;">
       <created>1594461755455</created>
@@ -297,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594630347645</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&quot;consul+  ribbon&quot;">
+      <created>1594720226223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594720226223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,17 +342,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;dpin测试&quot;" />
     <MESSAGE value="&quot;eureka集群 zookeeper&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;eureka集群 zookeeper&quot;" />
+    <MESSAGE value="&quot;consul+  ribbon&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;consul+  ribbon&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="509" width="805" height="422" key="#Notifications" timestamp="1594462266507">
       <screen x="0" y="0" width="2160" height="1379" />
     </state>
     <state x="926" y="509" width="805" height="422" key="#Notifications/0.0.2160.1379@0.0.2160.1379" timestamp="1594462266507" />
-    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594708179551">
+    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594721167840">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1344@0.0.2160.1344" timestamp="1594708179551" />
+    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1344@0.0.2160.1344" timestamp="1594721167840" />
     <state x="490" y="238" width="1670" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1380@0.0.2160.1380" timestamp="1594461962081" />
     <state x="832" y="164" width="606" height="1015" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594601909618">
       <screen x="0" y="0" width="2160" height="1344" />
@@ -350,38 +363,38 @@
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
     <state x="762" y="301" key="FileChooserDialogImpl/0.0.2160.1344@0.0.2160.1344" timestamp="1594612901335" />
-    <state width="1619" height="400" key="GridCell.Tab.0.bottom" timestamp="1594708893633">
+    <state width="1619" height="400" key="GridCell.Tab.0.bottom" timestamp="1594721529418">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.0.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893633" />
-    <state width="1619" height="400" key="GridCell.Tab.0.center" timestamp="1594708893632">
+    <state width="1619" height="400" key="GridCell.Tab.0.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529418" />
+    <state width="1619" height="400" key="GridCell.Tab.0.center" timestamp="1594721529417">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.0.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893632" />
-    <state width="1619" height="400" key="GridCell.Tab.0.left" timestamp="1594708893632">
+    <state width="1619" height="400" key="GridCell.Tab.0.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529417" />
+    <state width="1619" height="400" key="GridCell.Tab.0.left" timestamp="1594721529417">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.0.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893632" />
-    <state width="1619" height="400" key="GridCell.Tab.0.right" timestamp="1594708893632">
+    <state width="1619" height="400" key="GridCell.Tab.0.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529417" />
+    <state width="1619" height="400" key="GridCell.Tab.0.right" timestamp="1594721529417">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.0.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893632" />
-    <state width="1619" height="400" key="GridCell.Tab.1.bottom" timestamp="1594708893647">
+    <state width="1619" height="400" key="GridCell.Tab.0.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529417" />
+    <state width="1619" height="400" key="GridCell.Tab.1.bottom" timestamp="1594721529418">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.1.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893647" />
-    <state width="1619" height="400" key="GridCell.Tab.1.center" timestamp="1594708893633">
+    <state width="1619" height="400" key="GridCell.Tab.1.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529418" />
+    <state width="1619" height="400" key="GridCell.Tab.1.center" timestamp="1594721529418">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.1.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893633" />
-    <state width="1619" height="400" key="GridCell.Tab.1.left" timestamp="1594708893633">
+    <state width="1619" height="400" key="GridCell.Tab.1.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529418" />
+    <state width="1619" height="400" key="GridCell.Tab.1.left" timestamp="1594721529418">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.1.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893633" />
-    <state width="1619" height="400" key="GridCell.Tab.1.right" timestamp="1594708893633">
+    <state width="1619" height="400" key="GridCell.Tab.1.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529418" />
+    <state width="1619" height="400" key="GridCell.Tab.1.right" timestamp="1594721529418">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state width="1619" height="400" key="GridCell.Tab.1.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594708893633" />
+    <state width="1619" height="400" key="GridCell.Tab.1.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594721529418" />
     <state width="1619" height="400" key="GridCell.Tab.2.bottom" timestamp="1594652127226">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
@@ -404,19 +417,19 @@
     <state x="435" y="126" width="1596" height="1110" key="SettingsEditor/0.0.2160.1344@0.0.2160.1344" timestamp="1594636208042" />
     <state x="437" y="206" key="SettingsEditor/0.0.2160.1379@0.0.2160.1379" timestamp="1594463148624" />
     <state x="303" y="144" width="1596" height="1110" key="SettingsEditor/0.0.2160.1380@0.0.2160.1380" timestamp="1594462027985" />
-    <state x="480" y="294" key="Vcs.Push.Dialog.v2" timestamp="1594630348896">
+    <state x="480" y="294" key="Vcs.Push.Dialog.v2" timestamp="1594720227777">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1344@0.0.2160.1344" timestamp="1594630348896" />
+    <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1344@0.0.2160.1344" timestamp="1594720227777" />
     <state x="480" y="315" key="Vcs.Push.Dialog.v2/0.0.2160.1440@0.0.2160.1440" timestamp="1594461758119" />
     <state x="586" y="16" width="987" height="1311" key="find.popup" timestamp="1594636018304">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
     <state x="586" y="16" width="987" height="1311" key="find.popup/0.0.2160.1344@0.0.2160.1344" timestamp="1594636018304" />
-    <state x="0" y="329" width="2150" height="895" key="new project wizard" timestamp="1594651790733">
+    <state x="0" y="329" width="2150" height="895" key="new project wizard" timestamp="1594720262497">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
-    <state x="0" y="329" width="2150" height="895" key="new project wizard/0.0.2160.1344@0.0.2160.1344" timestamp="1594651790733" />
+    <state x="0" y="329" width="2150" height="895" key="new project wizard/0.0.2160.1344@0.0.2160.1344" timestamp="1594720262497" />
     <state x="313" y="136" key="spring file set editor" timestamp="1594634944680">
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
