@@ -11,7 +11,11 @@ spring:
       name: config  #配置文件名称
       profile: dev  #读取后缀名称   master分支上config-dev.yml的配置文件
       uri: http://localhost:3344  #
-
+  rabbitmq:
+    host: 47.92.23.23
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
