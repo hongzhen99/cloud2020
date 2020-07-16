@@ -5,6 +5,12 @@ server:
 spring:
   application:
     name: cloud-payment-service
+  #配置  zipkin + sleuth
+  zipkin:
+    base-url: http://zhenhongi.top:20001
+  sleuth:
+    sampler:
+      probability: 1 #采样率值介于 0到 1之间  1 表示全采集
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource    #数据源
     driver-class-name: com.mysql.cj.jdbc.Driver     #驱动包

@@ -4,7 +4,12 @@ server:
 spring:
   application:
     name: cloud-order-service
-
+  #配置  zipkin + sleuth
+  zipkin:
+    base-url: http://zhenhongi.top:20001
+  sleuth:
+    sampler:
+      probability: 1 #采样率值介于 0到 1之间  1 表示全采集
 eureka:
   client:
     #表示是否将自己注册进EurekaServer默认为true.
