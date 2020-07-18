@@ -1,3 +1,5 @@
 spring:
   profiles:
+#    active: info #info
+#    active: test
     active: dev #标识开发环境

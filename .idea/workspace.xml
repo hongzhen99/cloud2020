@@ -26,14 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;Sleuth 请求链路跟追踪&quot;">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/tian/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -433,7 +431,7 @@
       <workItem from="1594863182102" duration="11841000" />
       <workItem from="1594902228915" duration="5183000" />
       <workItem from="1594909210896" duration="16000" />
-      <workItem from="1594980918404" duration="8697000" />
+      <workItem from="1594980918404" duration="11246000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dpin测试&quot;">
       <created>1594461755455</created>
@@ -512,7 +510,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594907304271</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;">
+      <created>1595058238074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1595058238074</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +558,8 @@
     <MESSAGE value="&quot;Bus 消息总线&quot;" />
     <MESSAGE value="&quot;Stream消息驱动&quot;" />
     <MESSAGE value="&quot;Sleuth 请求链路跟追踪&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Sleuth 请求链路跟追踪&quot;" />
+    <MESSAGE value="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="509" width="805" height="422" key="#Notifications" timestamp="1594462266507">
@@ -564,11 +570,11 @@
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="312" y="31" key="#Project_Structure/0.0.2160.1346@0.0.2160.1346" timestamp="1595054558402" />
-    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595057587727">
+    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595058262045">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1344@0.0.2160.1344" timestamp="1594732040652" />
-    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1595057587727" />
+    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1595058262045" />
     <state x="490" y="238" width="1670" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1380@0.0.2160.1380" timestamp="1594461962081" />
     <state x="799" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594900423498">
       <screen x="0" y="0" width="2160" height="1346" />
@@ -591,62 +597,66 @@
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="757" y="521" key="Github.CreateGistDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1594903149572" />
-    <state width="1456" height="336" key="GridCell.Tab.0.bottom" timestamp="1595057588136">
+    <state width="1456" height="336" key="GridCell.Tab.0.bottom" timestamp="1595062095926">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.0.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588136" />
-    <state width="1456" height="336" key="GridCell.Tab.0.center" timestamp="1595057588135">
+    <state width="1456" height="336" key="GridCell.Tab.0.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
+    <state width="1456" height="336" key="GridCell.Tab.0.center" timestamp="1595062095925">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.0.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588135" />
-    <state width="1456" height="336" key="GridCell.Tab.0.left" timestamp="1595057588134">
+    <state width="1456" height="336" key="GridCell.Tab.0.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095925" />
+    <state width="1456" height="336" key="GridCell.Tab.0.left" timestamp="1595062095925">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.0.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588134" />
-    <state width="1456" height="336" key="GridCell.Tab.0.right" timestamp="1595057588135">
+    <state width="1456" height="336" key="GridCell.Tab.0.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095924" />
+    <state width="1456" height="336" key="GridCell.Tab.0.right" timestamp="1595062095926">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.0.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588135" />
-    <state width="1456" height="336" key="GridCell.Tab.1.bottom" timestamp="1595057588137">
+    <state width="1456" height="336" key="GridCell.Tab.0.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
+    <state width="1456" height="336" key="GridCell.Tab.1.bottom" timestamp="1595062095927">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.1.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588137" />
-    <state width="1456" height="336" key="GridCell.Tab.1.center" timestamp="1595057588136">
+    <state width="1456" height="336" key="GridCell.Tab.1.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
+    <state width="1456" height="336" key="GridCell.Tab.1.center" timestamp="1595062095927">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.1.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588136" />
-    <state width="1456" height="336" key="GridCell.Tab.1.left" timestamp="1595057588136">
+    <state width="1456" height="336" key="GridCell.Tab.1.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
+    <state width="1456" height="336" key="GridCell.Tab.1.left" timestamp="1595062095926">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.1.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588136" />
-    <state width="1456" height="336" key="GridCell.Tab.1.right" timestamp="1595057588137">
+    <state width="1456" height="336" key="GridCell.Tab.1.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
+    <state width="1456" height="336" key="GridCell.Tab.1.right" timestamp="1595062095927">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.1.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595057588137" />
-    <state width="1619" height="400" key="GridCell.Tab.2.bottom" timestamp="1594652127226">
-      <screen x="0" y="0" width="2160" height="1344" />
+    <state width="1456" height="336" key="GridCell.Tab.1.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
+    <state width="1456" height="336" key="GridCell.Tab.2.bottom" timestamp="1595061698582">
+      <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.2.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594652127226" />
-    <state width="1619" height="400" key="GridCell.Tab.2.center" timestamp="1594652127226">
-      <screen x="0" y="0" width="2160" height="1344" />
+    <state width="1456" height="336" key="GridCell.Tab.2.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595061698582" />
+    <state width="1456" height="336" key="GridCell.Tab.2.center" timestamp="1595061698580">
+      <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.2.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594652127226" />
-    <state width="1619" height="400" key="GridCell.Tab.2.left" timestamp="1594652127226">
-      <screen x="0" y="0" width="2160" height="1344" />
+    <state width="1456" height="336" key="GridCell.Tab.2.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595061698580" />
+    <state width="1456" height="336" key="GridCell.Tab.2.left" timestamp="1595061698580">
+      <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.2.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594652127226" />
-    <state width="1619" height="400" key="GridCell.Tab.2.right" timestamp="1594652127226">
-      <screen x="0" y="0" width="2160" height="1344" />
+    <state width="1456" height="336" key="GridCell.Tab.2.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595061698580" />
+    <state width="1456" height="336" key="GridCell.Tab.2.right" timestamp="1595061698580">
+      <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state width="1619" height="400" key="GridCell.Tab.2.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594652127226" />
+    <state width="1456" height="336" key="GridCell.Tab.2.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595061698580" />
     <state x="295" y="101" width="1596" height="1112" key="SettingsEditor" timestamp="1594996758985">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
@@ -654,11 +664,11 @@
     <state x="295" y="101" key="SettingsEditor/0.0.2160.1346@0.0.2160.1346" timestamp="1594996758985" />
     <state x="437" y="206" key="SettingsEditor/0.0.2160.1379@0.0.2160.1379" timestamp="1594463148624" />
     <state x="303" y="144" width="1596" height="1110" key="SettingsEditor/0.0.2160.1380@0.0.2160.1380" timestamp="1594462027985" />
-    <state x="480" y="294" key="Vcs.Push.Dialog.v2" timestamp="1594907305542">
+    <state x="480" y="294" key="Vcs.Push.Dialog.v2" timestamp="1595058239567">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1344@0.0.2160.1344" timestamp="1594724962174" />
-    <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1346@0.0.2160.1346" timestamp="1594907305542" />
+    <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1346@0.0.2160.1346" timestamp="1595058239567" />
     <state x="480" y="315" key="Vcs.Push.Dialog.v2/0.0.2160.1440@0.0.2160.1440" timestamp="1594461758119" />
     <state x="707" y="535" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594863830804">
       <screen x="0" y="0" width="2160" height="1346" />
