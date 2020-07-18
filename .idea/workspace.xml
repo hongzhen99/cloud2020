@@ -26,12 +26,10 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;">
+    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-config-nacos-client3377/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigMain3377">
+  <component name="RunManager" selected="Spring Boot.NacosProviderMain9002">
     <configuration name="Config3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.Config3344" />
@@ -389,20 +387,20 @@
       <item itemvalue="Spring Boot.ConfigClientMain3366" />
       <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
-      <item itemvalue="Spring Boot.StreamMQMain8803" />
-      <item itemvalue="Spring Boot.NacosProviderMain9001" />
       <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.StreamMQMain8801" />
+      <item itemvalue="Spring Boot.StreamMQMain8803" />
+      <item itemvalue="Spring Boot.NacosProviderMain9001" />
       <item itemvalue="Spring Boot.NacosProviderMain9002" />
       <item itemvalue="Spring Boot.ConsumerNaocsMain9000" />
-      <item itemvalue="Spring Boot.StreamMQMain8801" />
       <item itemvalue="Spring Boot.NacosConfigMain3377" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NacosProviderMain9002" />
         <item itemvalue="Spring Boot.NacosConfigMain3377" />
         <item itemvalue="Spring Boot.ConsumerNaocsMain9000" />
-        <item itemvalue="Spring Boot.NacosProviderMain9002" />
         <item itemvalue="Spring Boot.NacosProviderMain9001" />
         <item itemvalue="Spring Boot.StreamMQMain8803" />
       </list>
@@ -431,7 +429,8 @@
       <workItem from="1594863182102" duration="11841000" />
       <workItem from="1594902228915" duration="5183000" />
       <workItem from="1594909210896" duration="16000" />
-      <workItem from="1594980918404" duration="11246000" />
+      <workItem from="1594980918404" duration="12060000" />
+      <workItem from="1595084192355" duration="1002000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dpin测试&quot;">
       <created>1594461755455</created>
@@ -517,7 +516,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595058238074</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;">
+      <created>1595062601077</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1595062601077</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,7 +565,8 @@
     <MESSAGE value="&quot;Stream消息驱动&quot;" />
     <MESSAGE value="&quot;Sleuth 请求链路跟追踪&quot;" />
     <MESSAGE value="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;" />
+    <MESSAGE value="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="509" width="805" height="422" key="#Notifications" timestamp="1594462266507">
@@ -570,9 +577,10 @@
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="312" y="31" key="#Project_Structure/0.0.2160.1346@0.0.2160.1346" timestamp="1595054558402" />
-    <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595058262045">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state x="297" y="230" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595084295167">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state x="297" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1343@0.0.2160.1343" timestamp="1595084295167" />
     <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1344@0.0.2160.1344" timestamp="1594732040652" />
     <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1595058262045" />
     <state x="490" y="238" width="1670" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1380@0.0.2160.1380" timestamp="1594461962081" />
@@ -597,46 +605,54 @@
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="757" y="521" key="Github.CreateGistDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1594903149572" />
-    <state width="1456" height="336" key="GridCell.Tab.0.bottom" timestamp="1595062095926">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="252" key="GridCell.Tab.0.bottom" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.0.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.0.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
-    <state width="1456" height="336" key="GridCell.Tab.0.center" timestamp="1595062095925">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.0.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
+    <state width="1456" height="252" key="GridCell.Tab.0.center" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.0.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.0.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095925" />
-    <state width="1456" height="336" key="GridCell.Tab.0.left" timestamp="1595062095925">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.0.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
+    <state width="1456" height="252" key="GridCell.Tab.0.left" timestamp="1595064208639">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.0.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208639" />
     <state width="1619" height="400" key="GridCell.Tab.0.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095924" />
-    <state width="1456" height="336" key="GridCell.Tab.0.right" timestamp="1595062095926">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.0.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414362" />
+    <state width="1456" height="252" key="GridCell.Tab.0.right" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.0.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.0.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.0.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
-    <state width="1456" height="336" key="GridCell.Tab.1.bottom" timestamp="1595062095927">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.0.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
+    <state width="1456" height="252" key="GridCell.Tab.1.bottom" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.1.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.1.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
-    <state width="1456" height="336" key="GridCell.Tab.1.center" timestamp="1595062095927">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.1.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414364" />
+    <state width="1456" height="252" key="GridCell.Tab.1.center" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.1.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.1.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
-    <state width="1456" height="336" key="GridCell.Tab.1.left" timestamp="1595062095926">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.1.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
+    <state width="1456" height="252" key="GridCell.Tab.1.left" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.1.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.1.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095926" />
-    <state width="1456" height="336" key="GridCell.Tab.1.right" timestamp="1595062095927">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state width="1456" height="336" key="GridCell.Tab.1.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
+    <state width="1456" height="252" key="GridCell.Tab.1.right" timestamp="1595064208640">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state width="1456" height="252" key="GridCell.Tab.1.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
     <state width="1619" height="400" key="GridCell.Tab.1.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
-    <state width="1456" height="336" key="GridCell.Tab.1.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062095927" />
+    <state width="1456" height="336" key="GridCell.Tab.1.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
     <state width="1456" height="336" key="GridCell.Tab.2.bottom" timestamp="1595061698582">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
@@ -664,9 +680,10 @@
     <state x="295" y="101" key="SettingsEditor/0.0.2160.1346@0.0.2160.1346" timestamp="1594996758985" />
     <state x="437" y="206" key="SettingsEditor/0.0.2160.1379@0.0.2160.1379" timestamp="1594463148624" />
     <state x="303" y="144" width="1596" height="1110" key="SettingsEditor/0.0.2160.1380@0.0.2160.1380" timestamp="1594462027985" />
-    <state x="480" y="294" key="Vcs.Push.Dialog.v2" timestamp="1595058239567">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state x="480" y="293" key="Vcs.Push.Dialog.v2" timestamp="1595062602618">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state x="480" y="293" key="Vcs.Push.Dialog.v2/0.0.2160.1343@0.0.2160.1343" timestamp="1595062602618" />
     <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1344@0.0.2160.1344" timestamp="1594724962174" />
     <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1346@0.0.2160.1346" timestamp="1595058239567" />
     <state x="480" y="315" key="Vcs.Push.Dialog.v2/0.0.2160.1440@0.0.2160.1440" timestamp="1594461758119" />
