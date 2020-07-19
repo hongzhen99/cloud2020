@@ -26,10 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;">
+    <list default="true" id="d23d4ecf-3295-4c71-818e-96855f339047" name="Default Changelist" comment="&quot;服务注册地址写nginx监听的&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-provider-payment9002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,10 +106,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.18141593" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.46976402" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.19701278" />
   </component>
   <component name="ReactorSettings">
@@ -133,7 +135,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosProviderMain9002">
+  <component name="RunManager" selected="Spring Boot.SentinelServiceMain8401">
     <configuration name="Config3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-config-center3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.Config3344" />
@@ -347,6 +349,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelServiceMain8401" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-service8401" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tian.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.SentinelServiceMain8401" />
+      <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMQMain8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider8801" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.StreamMQMain8801" />
@@ -356,17 +373,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQMain8803" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer8803" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tian.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.StreamMQMain8803" />
-      <option name="VM_PARAMETERS" value="-Xms128m -Xmx128m" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+    <configuration name="StreamMQMain8802" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tian.StreamMQMain8802" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -390,19 +399,20 @@
       <item itemvalue="Spring Boot.GatewayMain9527" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
       <item itemvalue="Spring Boot.StreamMQMain8801" />
-      <item itemvalue="Spring Boot.StreamMQMain8803" />
+      <item itemvalue="Spring Boot.StreamMQMain8802" />
       <item itemvalue="Spring Boot.NacosProviderMain9001" />
       <item itemvalue="Spring Boot.NacosProviderMain9002" />
       <item itemvalue="Spring Boot.ConsumerNaocsMain9000" />
       <item itemvalue="Spring Boot.NacosConfigMain3377" />
+      <item itemvalue="Spring Boot.SentinelServiceMain8401" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelServiceMain8401" />
         <item itemvalue="Spring Boot.NacosProviderMain9002" />
         <item itemvalue="Spring Boot.NacosConfigMain3377" />
         <item itemvalue="Spring Boot.ConsumerNaocsMain9000" />
         <item itemvalue="Spring Boot.NacosProviderMain9001" />
-        <item itemvalue="Spring Boot.StreamMQMain8803" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +440,9 @@
       <workItem from="1594902228915" duration="5183000" />
       <workItem from="1594909210896" duration="16000" />
       <workItem from="1594980918404" duration="12060000" />
-      <workItem from="1595084192355" duration="1002000" />
+      <workItem from="1595084192355" duration="1144000" />
+      <workItem from="1595138836731" duration="668000" />
+      <workItem from="1595139528352" duration="6916000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;dpin测试&quot;">
       <created>1594461755455</created>
@@ -523,11 +535,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595062601077</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="&quot;服务注册地址写nginx监听的&quot;">
+      <created>1595085437752</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1595085437752</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.yml" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -566,24 +588,30 @@
     <MESSAGE value="&quot;Sleuth 请求链路跟追踪&quot;" />
     <MESSAGE value="&quot;cloud alibaba 注册中心  配置中心-基础配置&quot;" />
     <MESSAGE value="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;nacos 注册中心 分类配置 Data Id  Group Namespace&quot;" />
+    <MESSAGE value="&quot;服务注册地址写nginx监听的&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;服务注册地址写nginx监听的&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="926" y="509" width="805" height="422" key="#Notifications" timestamp="1594462266507">
       <screen x="0" y="0" width="2160" height="1379" />
     </state>
     <state x="926" y="509" width="805" height="422" key="#Notifications/0.0.2160.1379@0.0.2160.1379" timestamp="1594462266507" />
-    <state x="312" y="31" key="#Project_Structure" timestamp="1595054558402">
-      <screen x="0" y="0" width="2160" height="1346" />
-    </state>
-    <state x="312" y="31" key="#Project_Structure/0.0.2160.1346@0.0.2160.1346" timestamp="1595054558402" />
-    <state x="297" y="230" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595084295167">
+    <state x="312" y="31" key="#Project_Structure" timestamp="1595139791488">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state x="297" y="230" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1343@0.0.2160.1343" timestamp="1595084295167" />
+    <state x="312" y="31" key="#Project_Structure/0.0.2160.1343@0.0.2160.1343" timestamp="1595139791488" />
+    <state x="312" y="31" key="#Project_Structure/0.0.2160.1346@0.0.2160.1346" timestamp="1595054558402" />
+    <state x="297" y="230" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595140471436">
+      <screen x="0" y="0" width="2160" height="1343" />
+    </state>
+    <state x="297" y="230" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1343@0.0.2160.1343" timestamp="1595140471436" />
     <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1344@0.0.2160.1344" timestamp="1594732040652" />
     <state x="297" y="231" width="1667" height="843" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1595058262045" />
     <state x="490" y="238" width="1670" height="904" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2160.1380@0.0.2160.1380" timestamp="1594461962081" />
+    <state x="516" y="422" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595139380435">
+      <screen x="0" y="0" width="2160" height="1343" />
+    </state>
+    <state x="516" y="422" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2160.1343@0.0.2160.1343" timestamp="1595139380435" />
     <state x="799" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1594900423498">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
@@ -605,52 +633,52 @@
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="757" y="521" key="Github.CreateGistDialog/0.0.2160.1346@0.0.2160.1346" timestamp="1594903149572" />
-    <state width="1456" height="252" key="GridCell.Tab.0.bottom" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.0.bottom" timestamp="1595166470586">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.0.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.0.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470586" />
     <state width="1619" height="400" key="GridCell.Tab.0.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.0.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
-    <state width="1456" height="252" key="GridCell.Tab.0.center" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.0.center" timestamp="1595166470586">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.0.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.0.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470586" />
     <state width="1619" height="400" key="GridCell.Tab.0.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.0.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
-    <state width="1456" height="252" key="GridCell.Tab.0.left" timestamp="1595064208639">
+    <state width="1456" height="353" key="GridCell.Tab.0.left" timestamp="1595166470586">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.0.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208639" />
+    <state width="1456" height="353" key="GridCell.Tab.0.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470586" />
     <state width="1619" height="400" key="GridCell.Tab.0.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.0.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414362" />
-    <state width="1456" height="252" key="GridCell.Tab.0.right" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.0.right" timestamp="1595166470586">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.0.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.0.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470586" />
     <state width="1619" height="400" key="GridCell.Tab.0.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.0.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
-    <state width="1456" height="252" key="GridCell.Tab.1.bottom" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.1.bottom" timestamp="1595166470587">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.1.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.1.bottom/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470587" />
     <state width="1619" height="400" key="GridCell.Tab.1.bottom/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.1.bottom/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414364" />
-    <state width="1456" height="252" key="GridCell.Tab.1.center" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.1.center" timestamp="1595166470587">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.1.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.1.center/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470587" />
     <state width="1619" height="400" key="GridCell.Tab.1.center/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.1.center/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
-    <state width="1456" height="252" key="GridCell.Tab.1.left" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.1.left" timestamp="1595166470587">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.1.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.1.left/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470587" />
     <state width="1619" height="400" key="GridCell.Tab.1.left/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.1.left/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
-    <state width="1456" height="252" key="GridCell.Tab.1.right" timestamp="1595064208640">
+    <state width="1456" height="353" key="GridCell.Tab.1.right" timestamp="1595166470587">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state width="1456" height="252" key="GridCell.Tab.1.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595064208640" />
+    <state width="1456" height="353" key="GridCell.Tab.1.right/0.0.2160.1343@0.0.2160.1343" timestamp="1595166470587" />
     <state width="1619" height="400" key="GridCell.Tab.1.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594739371005" />
     <state width="1456" height="336" key="GridCell.Tab.1.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595062414363" />
     <state width="1456" height="336" key="GridCell.Tab.2.bottom" timestamp="1595061698582">
@@ -673,17 +701,22 @@
     </state>
     <state width="1619" height="400" key="GridCell.Tab.2.right/0.0.2160.1344@0.0.2160.1344" timestamp="1594652127226" />
     <state width="1456" height="336" key="GridCell.Tab.2.right/0.0.2160.1346@0.0.2160.1346" timestamp="1595061698580" />
-    <state x="295" y="101" width="1596" height="1112" key="SettingsEditor" timestamp="1594996758985">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state x="295" y="59" width="1536" height="1284" key="SettingsEditor" timestamp="1595140019005">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state x="295" y="59" width="1536" height="1284" key="SettingsEditor/0.0.2160.1343@0.0.2160.1343" timestamp="1595140019005" />
     <state x="295" y="101" width="1596" height="1112" key="SettingsEditor/0.0.2160.1344@0.0.2160.1344" timestamp="1594739457649" />
     <state x="295" y="101" key="SettingsEditor/0.0.2160.1346@0.0.2160.1346" timestamp="1594996758985" />
     <state x="437" y="206" key="SettingsEditor/0.0.2160.1379@0.0.2160.1379" timestamp="1594463148624" />
     <state x="303" y="144" width="1596" height="1110" key="SettingsEditor/0.0.2160.1380@0.0.2160.1380" timestamp="1594462027985" />
-    <state x="480" y="293" key="Vcs.Push.Dialog.v2" timestamp="1595062602618">
+    <state x="831" y="256" key="SpringBootCustomization" timestamp="1595139488770">
       <screen x="0" y="0" width="2160" height="1343" />
     </state>
-    <state x="480" y="293" key="Vcs.Push.Dialog.v2/0.0.2160.1343@0.0.2160.1343" timestamp="1595062602618" />
+    <state x="831" y="256" key="SpringBootCustomization/0.0.2160.1343@0.0.2160.1343" timestamp="1595139488770" />
+    <state x="480" y="293" key="Vcs.Push.Dialog.v2" timestamp="1595085439489">
+      <screen x="0" y="0" width="2160" height="1343" />
+    </state>
+    <state x="480" y="293" key="Vcs.Push.Dialog.v2/0.0.2160.1343@0.0.2160.1343" timestamp="1595085439489" />
     <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1344@0.0.2160.1344" timestamp="1594724962174" />
     <state x="480" y="294" key="Vcs.Push.Dialog.v2/0.0.2160.1346@0.0.2160.1346" timestamp="1595058239567" />
     <state x="480" y="315" key="Vcs.Push.Dialog.v2/0.0.2160.1440@0.0.2160.1440" timestamp="1594461758119" />
@@ -695,18 +728,20 @@
       <screen x="0" y="0" width="2160" height="1344" />
     </state>
     <state x="586" y="16" width="987" height="1311" key="find.popup/0.0.2160.1344@0.0.2160.1344" timestamp="1594636018304" />
-    <state x="10" y="451" width="2150" height="895" key="new project wizard" timestamp="1595056459383">
-      <screen x="0" y="0" width="2160" height="1346" />
+    <state x="10" y="449" width="2150" height="895" key="new project wizard" timestamp="1595139126536">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state x="10" y="449" key="new project wizard/0.0.2160.1343@0.0.2160.1343" timestamp="1595139126536" />
     <state x="0" y="329" width="2150" height="895" key="new project wizard/0.0.2160.1344@0.0.2160.1344" timestamp="1594731178824" />
     <state x="10" y="451" width="2150" height="895" key="new project wizard/0.0.2160.1346@0.0.2160.1346" timestamp="1595056459383" />
     <state x="533" y="0" width="1090" height="1342" key="search.everywhere.popup" timestamp="1595056727158">
       <screen x="0" y="0" width="2160" height="1346" />
     </state>
     <state x="533" y="0" width="1090" height="1342" key="search.everywhere.popup/0.0.2160.1346@0.0.2160.1346" timestamp="1595056727158" />
-    <state x="313" y="136" key="spring file set editor" timestamp="1594634944680">
-      <screen x="0" y="0" width="2160" height="1344" />
+    <state x="32" y="184" key="spring file set editor" timestamp="1595139890613">
+      <screen x="0" y="0" width="2160" height="1343" />
     </state>
+    <state x="32" y="184" key="spring file set editor/0.0.2160.1343@0.0.2160.1343" timestamp="1595139890613" />
     <state x="313" y="136" key="spring file set editor/0.0.2160.1344@0.0.2160.1344" timestamp="1594634944680" />
   </component>
 </project>
