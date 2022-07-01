@@ -12,6 +12,14 @@ spring:
       transport:
         dashboard: localhost:8080
         port: 8719
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 47.92.23.23:8848
+            dataId: ${spring.application.name}
+            group:  DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
 management:
   endpoints:
     web:
